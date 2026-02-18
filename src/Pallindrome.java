@@ -1,4 +1,3 @@
-
 import java.util.*;
         public class Pallindrome {
             public static void main(String[] args) {
@@ -15,7 +14,6 @@ import java.util.*;
                     num = num / 10;
                 }
 
-
                 if (originalNum == rev) {
                     System.out.println(originalNum + " is a palindrome number.");
                 } else {
@@ -24,4 +22,3 @@ import java.util.*;
                 sc.close();
             }
         }
-
